@@ -15,3 +15,6 @@ Changes were also made in the borrowing and returning functions to use the new m
 In the frontend, a new input field was added in the CreateCar component to add the custom price. This value was then passed onto createCar() function which calls the mintNFT with this argument. On the borrowCar function, in the transcatiion for the value, this custom price is used. Also in the BorrowCar page component, added an extra field to fetch the custom price and show it.
 
 Originally, I had decided to implement three features but was only able to implement the above one. I had plans to add a burn function to remove a car and another mapping which stores an array of previous Owners. But Hedera Testnet hasn't been working properly for myself since 10-09-23, not allowing me to deploy new smart contracts. The contract reverts at the constructor() function provided in the quest which was unchanged by me. I checked by adding a custom message inside the revert() function in constructor(). I tried to ask for help in discord helpdesk for quest 8 but to no avail. Luckily I had deployed earlier a smart contract with the one feature mentioned above for testing the feature and was able to use it now.
+
+Discord username - arji30
+Twitter username - arji30
